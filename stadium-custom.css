@@ -300,16 +300,18 @@ background-color: rgba(68,68,68, var(--acs-bg-opacity))
 
 /* Plain Link Accents */
 .acs-link-accent {
-text-decoration: none;
+text-decoration: none !important;
 color:inherit;
 transition: all 0.2s ease-in-out 0s;
 }
 .acs-link-accent:hover .acs-hover-underline-animation:after {
 transform: scaleX(1);
 transform-origin: bottom left;
+text-decoration: none !important;
 }
 .acs-link-accent:hover .acs-hover-underline-animation .fa {
 color: var(--accent2);
+text-decoration: none !important;
 }
 /* Plain Link Accents */
 
@@ -318,7 +320,7 @@ color: var(--accent2);
 /* Hover Line Animation */
 .acs-hover-underline-animation {
 position: relative;
-text-decoration: none;
+text-decoration: none !important;
 }
 
 .acs-hover-underline-animation:after {
@@ -332,6 +334,7 @@ left: 0;
 background-color: var(--accent2);
 transform-origin: bottom right;
 transition: transform 0.25s ease-out;
+text-decoration: none !important;
 }
 
 .acs-hover-underline-animation .fa {
