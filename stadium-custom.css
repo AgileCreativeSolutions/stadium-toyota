@@ -303,17 +303,16 @@ background-color: rgba(68,68,68, var(--acs-bg-opacity))
 text-decoration: none !important;
 color:inherit;
 transition: all 0.2s ease-in-out 0s;
+cursor: pointer
 }
 .acs-link-accent:hover .acs-hover-underline-animation:after {
 transform: scaleX(1);
 transform-origin: bottom left;
 text-decoration: none !important;
-cursor: pointer
 }
 .acs-link-accent:hover .acs-hover-underline-animation .fa {
 color: var(--accent2);
 text-decoration: none !important;
-cursor: pointer
 }
 /* Plain Link Accents */
 
