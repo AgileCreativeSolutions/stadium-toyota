@@ -308,10 +308,12 @@ transition: all 0.2s ease-in-out 0s;
 transform: scaleX(1);
 transform-origin: bottom left;
 text-decoration: none !important;
+cursor: pointer
 }
 .acs-link-accent:hover .acs-hover-underline-animation .fa {
 color: var(--accent2);
 text-decoration: none !important;
+cursor: pointer
 }
 /* Plain Link Accents */
 
