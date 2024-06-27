@@ -43,7 +43,7 @@ src: url("https://agilecreativesolutions.github.io/ToyotaBrandFont/ToyotaType-Bo
 
 
 /* OEM Font */
-.acs-wrapper { 
+.acs-wrapper, .acs-oem-brand { 
 font-family: "ToyotaType-Regular", sans-serif;
 font-weight: 400;
 }
@@ -142,7 +142,7 @@ font-weight: 700;
 
 
 /* Variables */
-.acs-wrapper {
+.acs-wrapper, .acs-oem-brand {
 --accent: #CC0001;
 --accent2: #EB0A1E;
 --accent3: #EDF0F5;
